@@ -9,9 +9,9 @@
 			<a href="/">PURPLE SPADE</a>
 		</div>
 		<div class="nav__menu">
-			<a href="/about">About</a>
+			<a href="/story">Story</a>
 			<a href="/info">Stage</a>
-			<a href="/cast">Cast</a>
+			<a sveltekit:prefetch href="/cast">Cast</a>
 			<a href="/news">News</a>
 			<a href="/guide">Guide</a>
 		</div>
@@ -22,7 +22,7 @@
 <style lang="scss">
 	header {
 		width: 100vw;
-		display: fixed;
+		position: fixed;
 		background: var(--bg);
 		z-index: 10;
 		top: 0;

@@ -33,7 +33,7 @@
 		<div class="actor" in:fade={{ x: -200, duration: 450, delay: i * 50 }}>
 			<a sveltekit:prefetch href={`/cast/${actor.role}`}>
 				<img src={actor.img} alt="" />
-				<p>{actor.name}</p>
+				<p>{actor.character}</p>
 			</a>
 		</div>
 	{:else}
@@ -44,23 +44,26 @@
 <style lang="scss">
 	.cast {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 		gap: var(--rem8);
 
 		.actor {
 			display: flex;
 
 			a {
-				opacity: 0.8;
-				transition: opacity 0.2s;
+				color: var(--white);
+				opacity: 0.7;
+				transition: 0.2s;
 			}
 
 			&:hover a {
 				opacity: 1;
+				color: var(--primary);
 			}
 
 			img {
-				width: 10rem;
+				height: 12rem;
+				object-fit: cover;
 			}
 		}
 	}
