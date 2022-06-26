@@ -68,8 +68,8 @@ export async function get() {
         },
       { 
           id: 9, 
-          character: 'チンピラ',
-          role: 'chinpira',
+          character: 'ギャングボイ',
+          role: 'gangboy',
           name: 'ディエゴ',
           reading: 'Diego',
           img: 'img-09.jpg',

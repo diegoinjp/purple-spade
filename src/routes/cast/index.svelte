@@ -45,6 +45,7 @@
 	.cast {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+		place-items: center;
 		gap: var(--rem8);
 
 		.actor {

@@ -1,14 +1,18 @@
 <svelte:head>
-  <title>メルシアーク神楽坂 | 芝居・舞台・ダンスのおしゃれな小劇場</title>
+	<title>パープルスペード舞台</title>
 </svelte:head>
 
-
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<a href="/about">About</a>
+<div>
+	<h1>Purple <span>♠︎</span> Spade</h1>
+	<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+	<a href="/story">STORY</a>
+</div>
 
 <style lang="scss">
-    a {
-        color: white;
-    }
+	h1 {
+		font-size: var(--rem64);
+	}
+	span {
+		font-size: 7rem;
+	}
 </style>

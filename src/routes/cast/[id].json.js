@@ -84,8 +84,8 @@ export async function get({ params }) {
           },
         { 
             id: 9, 
-            character: 'チンピラ',
-            role: 'chinpira',
+            character: 'ギャングボイ',
+            role: 'gangboy',
             name: 'ディエゴ',
             reading: 'Diego',
             affiliation: '劇団メリシーアク',

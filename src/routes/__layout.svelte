@@ -3,7 +3,6 @@
 	import Loader from '../lib/Loader.svelte';
 	import '../app.scss';
 	import { onMount } from 'svelte';
-	import { fly, fade } from 'svelte/transition';
 
 	let isPageLoad = false;
 

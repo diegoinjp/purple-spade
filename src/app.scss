@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-	--primary: hsl(357, 79%, 63%);
+	--primary: hsl(357, 89%, 63%);
 	--primary-alt: hsl(13, 80%, 70%);
 	--secondary: hsl(267, 49%, 63%);
 	--tertiary: hsl(207, 79%, 63%);
@@ -19,6 +19,7 @@
 	--rem16: 1rem;
 	--rem24: 1.5rem;
 	--rem32: 2rem;
+	--rem64: 4rem;
 
 	--bold: 700;
 }
@@ -48,8 +49,18 @@ a {
 }
 
 h1,
-a {
+a,
+h2 {
 	color: var(--primary);
+}
+
+h1 {
+	font-size: var(--rem64);
+}
+
+h2 {
+	font-size: var(--rem32);
+	font-weight: 700;
 }
 
 img {

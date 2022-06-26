@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>NEWS | パープルスペード舞台</title>
+	<title>NEWS | パープルスペード舞台</title>
 </svelte:head>
 
-最新情報
+<h1>最新情報</h1>
